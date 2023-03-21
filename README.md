@@ -216,5 +216,8 @@ The reals datasets differ from the artificial ones in the number of feature whic
 ![](results/Tableau_plots/Real/DashboardG.png)
 ![](results/Tableau_plots/Real/Recalls.png)
 
+## Citing IEBench
+If you want to refer to IEBench in a publication, please cite the following paper:
 
+> Bernardo, Alessio, Giacomo Ziffer, and Emanuele Della Valle. "IEBench: Benchmarking Streaming Learners on Imbalanced Evolving Data Streams." 2021 International Conference on Data Mining Workshops (ICDMW). IEEE, 2021.
 
