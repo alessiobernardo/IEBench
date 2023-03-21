@@ -1,5 +1,5 @@
 
-## A Comparative Study on Streaming Machine Learning Algorithms for Binary Classification under Concept Drift and Class Imbalance
+## IEBench: Benchmarking Streaming Learners on Imbalanced Evolving Data Streams
 
 ![](https://camo.githubusercontent.com/1ef7c1925e77c6f8b1c9f5adfdcea37dba30c98478264503067a91076db66144/687474703a2f2f6d6f612e636d732e7761696b61746f2e61632e6e7a2f77702d636f6e74656e742f75706c6f6164732f323031342f31312f4c6f676f4d4f412e6a7067)
 
@@ -86,10 +86,6 @@ The online version of this algorithm is called OS-ELM and it updates the ELM wit
 Ensemble of Subset Online Sequential Extreme Learning Machine (ESOS-ELM), has been proposed for class imbalance learning from a concept-drifting data stream. In ESOS-ELM, a minority class sample is processed by ‘m’ OS-ELM classifiers (‘m’ should be at least the imbalance ratio, in our case is 10) while a majority class sample is processed by a single classifier. The majority class samples are processed in a round robin fashion, i.e., the first majority class sample is processed by the first classifier, the second sample by the second classifier and so on. In this way, classifiers in the ensemble are trained with balanced subsets from the original imbalanced dataset. Furthermore the WELM is used as a batch classifier for recurrent concepts.    
 
 
-I collected all the paper that i am referring to [here](papers/)   
-
-
-
 # Datastreams
 
 I generated 9 different types of drift forking this [generator](https://github.com/dabrze/imbalanced-stream-generator) and building a script to aumatically generate the data streams files. You can find my version of the generator and the script [here](datasets/Generator) 
@@ -151,8 +147,7 @@ you can find them [here](datasets/Real).
 
 # Algorithms implementation
 
-The moa algorithms implementation can be found [here](algorithms_java).  
-In this repository I uploaded only the corresponding java classes, for the complete version of moa refer to this [moa fork](https://github.com/08volt/moa "moa fork")).
+The moa algorithms implementation can be found [here](algorithms_java).
 
 # Experiments
 
